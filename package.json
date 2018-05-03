@@ -25,5 +25,8 @@
     "eject": "react-scripts eject",
     "serve": "node server.js",
     "serve-delayed": "node server.js delayresponse"
+  },
+  "engines": {
+    "node": "9.4.0"
   }
 }
