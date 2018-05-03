@@ -6,7 +6,7 @@ module.exports = {
         clientSecret: 'akIDkh0gXjfhyxDYJC9LlYE0'
     },
     mongodb: {
-        dbURI: 'mongodb://jason:jason@ds163689.mlab.com:63689/jason-final-project'
+        dbURI: 'mongodb://root:root@ds113700.mlab.com:13700/heroku_cdd2qgvj'
     },
     session: {
         cookieKey: 'reactisawesome'
