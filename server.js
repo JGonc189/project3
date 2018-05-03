@@ -8,6 +8,7 @@ const mongoose = require('mongoose');
 const keys = require('./config/keys');
 
 const app = express();
+const PORT = process.env.PORT || 3001;
 
 // set view engine
 app.set('view engine', 'ejs');
@@ -128,6 +129,6 @@ app.get('/stats/solved', function (req, res) {
     });
 });
 
-app.listen(3001, function () {
-    console.log('Data being served from http://localhost:3001');
+app.listen(PORT, function () {
+    console.log('Data being served from: ' + PORT);
 });
